@@ -27,3 +27,4 @@ Suggests:
     knitr
 LazyLoad: yes
 LazyData: yes
+RoxygenNote: 5.0.1

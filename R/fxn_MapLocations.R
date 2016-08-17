@@ -97,7 +97,7 @@ MapLocations <- function(df,latVar,lonVar,
               cex=0.75)
   }
   
-  points(df[,lonVar], df[,latVar],pch=plotSymbol, col="black",bg=col1,cex=1.2)
+  points(df[[lonVar]], df[[latVar]],pch=plotSymbol, col="black",bg=col1,cex=1.2)
   mtext(mainTitle,side=3,line=titlePos,outer=TRUE,font=2,cex=1.3)
   
   
